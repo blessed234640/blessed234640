@@ -17,8 +17,10 @@
 <image-card alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white&color=000000" ></image-card>
 
 ### Проекты
+- [API](https://github.com/blessed234640/microservices_shop.git): MicroShop - Современная E-commerce платформа на микросервисах.
 - [Bookmarks](https://github.com/blessed234640/Bookmarks): Социальный сайт на Django с аутентификацией и шарингом.
-- [Telegram-бот](ссылка_на_репо): Бот для погоды, валюты, музыки (добавь ссылку, если репозиторий готов).
+- [Blog](https://github.com/blessed234640/mysite.git): Современное приложение для введения блога.
+- [Telegram-бот](https://github.com/blessed234640/pythontgbot.git): Бот для погоды, валюты, музыки.
 
 ### Контакты
 - Telegram: [@dnkxeo](https://t.me/dnkxeo)
