@@ -39,29 +39,43 @@ def update_readme():
         print("README.md not found!")
         return
     
-    stats_block = f"""### 🚀 Динамическая статистика
+    # Создаем новый блок статистики
+    new_stats_block = f"""### Динамическая статистика
 
 <!-- LAST_UPDATED: {formatted_time} -->
 
-> 📊 Статистика обновляется автоматически
-
-- **Последнее обновление:** {formatted_time}
-- **Публичные репозитории:** {stats.get('public_repos', 0)}
-- **Подписчики:** {stats.get('followers', 0)}
-- **Подписки:** {stats.get('following', 0)}
-
+- Статистика обновляется автоматически  
+- Последнее обновление: {formatted_time}  
+- Публичные репозитории: {stats.get('public_repos', 0)}  
+- Подписчики: {stats.get('followers', 0)}  
+- Подписки: {stats.get('following', 0)}  
 """
     
-    if "### 🚀 Динамическая статистика" in content:
-        pattern = r'### 🚀 Динамическая статистика.*?<!-- LAST_UPDATED:.*?-->'
-        content = re.sub(pattern, stats_block, content, flags=re.DOTALL)
+    # Ищем и заменяем ВЕСЬ блок статистики
+    if "### Динамическая статистика" in content:
+        # Находим начало блока статистики и конец (до следующего заголовка или разделителя)
+        pattern = r'### Динамическая статистика.*?(?=\n###|\n---|\n\*\*|\n#|\n$)'
+        content = re.sub(pattern, new_stats_block, content, flags=re.DOTALL)
     else:
-        content = content.replace('# Артур Азимов', f'# Артур Азимов\n\n{stats_block}')
+        # Если блока нет, добавляем после Recent Activity
+        if "## Recent Activity" in content:
+            content = content.replace(
+                "## Recent Activity", 
+                f"## Recent Activity\n\n{new_stats_block}"
+            )
+        else:
+            # Или просто в конец раздела "Обо мне"
+            content = content.replace(
+                "## Обо мне", 
+                f"## Обо мне\n\n{new_stats_block}"
+            )
     
+    # Записываем обновленный README
     with open('README.md', 'w', encoding='utf-8') as file:
         file.write(content)
     
     print(f"✅ README updated at {formatted_time}")
+    print(f"📊 Stats: {stats}")
 
 if __name__ == "__main__":
     update_readme()
