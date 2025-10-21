@@ -27,7 +27,6 @@
 - Email: arturazimov200577@gmail.com
 
 ### Статистика
-<image-card alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=blessed234640&theme=dracula&hide_border=true&include_all_commits=true&count_private=true" ></image-card>
-<image-card alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=blessed234640&theme=dracula&hide_border=true&include_all_commits=true&count_private=true&layout=compact" ></image-card>
-
-<image-card alt="Streak" src="https://github-readme-streak-stats.herokuapp.com/?user=blessed234640&theme=dracula&hide_border=true" ></image-card>
+<image-card alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=blessed234640&theme=radical&hide_border=true&include_all_commits=true&count_private=true" ></image-card>
+<image-card alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=blessed234640&theme=radical&hide_border=true&include_all_commits=true&count_private=true&layout=compact" ></image-card>
+<image-card alt="Streak" src="https://github-readme-streak-stats.herokuapp.com/?user=blessed234640&theme=radical&hide_border=true" ></image-card>
