@@ -47,11 +47,11 @@
 
 <!-- LAST_UPDATED: 01.01.2024 00:00 MSK -->
 
-[![Update Stats](https://github.com/blessed234640/blessed234640/actions/workflows/update-stats.yml/badge.svg)](https://github.com/blessed234640/blessed234640/actions/workflows/update-stats.yml)
-
 > 📊 Статистика обновляется автоматически
 
-### 🎯 Recent Activity
+- **Последнее обновление:** 01.01.2024 00:00 MSK
+- **Публичные репозитории:** 0
+- **Подписчики:** 0  
+- **Подписки:** 0
 
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
+[![Update Stats](https://github.com/blessed234640/blessed234640/actions/workflows/update-stats.yml/badge.svg)](https://github.com/blessed234640/blessed234640/actions/workflows/update-stats.yml)

@@ -4,8 +4,6 @@ on:
   schedule:
     - cron: '0 0 * * *'  # Каждый день в 00:00 UTC
   workflow_dispatch:      # Ручной запуск
-  push:
-    branches: [ main ]
 
 jobs:
   update-stats:
@@ -14,9 +12,7 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        
+      
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
@@ -26,14 +22,6 @@ jobs:
       run: |
         pip install requests pytz
         
-    - name: Create scripts directory
-      run: mkdir -p scripts
-      
-    - name: Download update script
-      run: |
-        curl -o scripts/update_readme.py https://gist.githubusercontent.com/your-gist/raw/update_readme.py
-      # ИЛИ просто создайте файл вручную как показано выше
-      
     - name: Run update script
       run: python scripts/update_readme.py
       
@@ -48,5 +36,5 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add README.md
-        git commit -m "📈 Auto-update README - $(date +'%d.%m.%Y %H:%M')"
+        git commit -m "📈 Auto-update README stats"
         git push
