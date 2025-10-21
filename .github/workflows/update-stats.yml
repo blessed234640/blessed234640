@@ -1,0 +1,52 @@
+name: Update README Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Каждый день в 00:00 UTC
+  workflow_dispatch:      # Ручной запуск
+  push:
+    branches: [ main ]
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+        
+    - name: Install dependencies
+      run: |
+        pip install requests pytz
+        
+    - name: Create scripts directory
+      run: mkdir -p scripts
+      
+    - name: Download update script
+      run: |
+        curl -o scripts/update_readme.py https://gist.githubusercontent.com/your-gist/raw/update_readme.py
+      # ИЛИ просто создайте файл вручную как показано выше
+      
+    - name: Run update script
+      run: python scripts/update_readme.py
+      
+    - name: Check for changes
+      id: git-check
+      run: |
+        git diff --exit-code README.md || echo "changes=true" >> $GITHUB_OUTPUT
+        
+    - name: Commit and push changes
+      if: steps.git-check.outputs.changes == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add README.md
+        git commit -m "📈 Auto-update README - $(date +'%d.%m.%Y %H:%M')"
+        git push
