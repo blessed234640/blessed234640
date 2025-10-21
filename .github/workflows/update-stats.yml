@@ -2,39 +2,41 @@ name: Update README Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Каждый день в 00:00 UTC
-  workflow_dispatch:      # Ручной запуск
+    - cron: '0 12 * * *'  # Каждый день в 12:00 UTC (15:00 по Москве)
+  workflow_dispatch:       # Разрешает ручной запуск
 
 jobs:
-  update-stats:
+  update-readme:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          
+      - name: Install dependencies
+        run: |
+          pip install requests pytz
+          
+      - name: Run update script
+        run: python scripts/update_readme.py
         
-    - name: Install dependencies
-      run: |
-        pip install requests pytz
-        
-    - name: Run update script
-      run: python scripts/update_readme.py
-      
-    - name: Check for changes
-      id: git-check
-      run: |
-        git diff --exit-code README.md || echo "changes=true" >> $GITHUB_OUTPUT
-        
-    - name: Commit and push changes
-      if: steps.git-check.outputs.changes == 'true'
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add README.md
-        git commit -m "📈 Auto-update README stats"
-        git push
+      - name: Check for changes
+        id: git-diff
+        run: |
+          git diff --exit-code README.md || echo "has_changes=true" >> $GITHUB_OUTPUT
+          
+      - name: Commit and push changes
+        if: steps.git-diff.outputs.has_changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git commit -m "🤖 Auto-update README stats"
+          git push
