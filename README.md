@@ -7,14 +7,14 @@
 - Увлекаюсь: Программированием, саморазвитием
 
 ### Навыки
-<image-card alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" ></image-card>
-<image-card alt="Django" src="https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white" ></image-card>
-<image-card alt="DRF" src="https://img.shields.io/badge/DRF-A30000?style=flat&logo=django&logoColor=white" ></image-card>
-<image-card alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" ></image-card>
-<image-card alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white" ></image-card>
-<image-card alt="Redis" src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white" ></image-card>
-<image-card alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" ></image-card>
-<image-card alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" ></image-card>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
+![DRF](https://img.shields.io/badge/DRF-A30000?style=flat&logo=django&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
 ### Проекты
 - [API](https://github.com/blessed234640/microservices_shop.git): MicroShop - Современная E-commerce платформа на микросервисах.
@@ -27,6 +27,7 @@
 - Email: arturazimov200577@gmail.com
 
 ### Статистика
-<image-card alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=blessed234640&theme=radical&hide_border=true&include_all_commits=true&count_private=true" ></image-card>
-<image-card alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=blessed234640&theme=radical&hide_border=true&include_all_commits=true&count_private=true&layout=compact" ></image-card>
-<image-card alt="Streak" src="https://github-readme-streak-stats.herokuapp.com/?user=blessed234640&theme=radical&hide_border=true" ></image-card>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=blessed234640&theme=dracula&hide_border=true&include_all_commits=true&count_private=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=blessed234640&theme=dracula&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
+
+![Streak](https://github-readme-streak-stats.herokuapp.com/?user=blessed234640&theme=dracula&hide_border=true)
