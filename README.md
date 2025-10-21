@@ -1,6 +1,6 @@
 # Артур Азимов
 
-<img src="avatar.png" alt="Артур Азимов" width="200" align="right" style="border-radius: 50%; border: 2px solid #fff;">
+<img src="ff.png" alt="Артур Азимов" width="200" align="right" style="border-radius: 50%; border: 2px solid #fff;">
 
 ### 👨‍💻 Обо мне
 - 🎯 20 лет, Екатеринбург
@@ -33,10 +33,12 @@
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=blessed234640&theme=dracula&hide_border=true&include_all_commits=true&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=blessed234640&theme=dracula&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
+<img src="https://github-readme-stats.vercel.app/api?username=blessed234640&theme=dracula&hide_border=true&include_all_commits=true&count_private=true&show_icons=true&line_height=20" height="165">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=blessed234640&theme=dracula&hide_border=true&include_all_commits=true&count_private=true&layout=compact&langs_count=8" height="165">
 
-![Streak](https://github-readme-streak-stats.herokuapp.com/?user=blessed234640&theme=dracula&hide_border=true)
-![Trophy](https://github-profile-trophy.vercel.app/?username=blessed234640&theme=dracula&no-frame=true&margin-w=15&margin-h=15)
+<br>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=blessed234640&theme=dracula&hide_border=true" height="165">
+<img src="https://github-profile-trophy.vercel.app/?username=blessed234640&theme=dracula&no-frame=true&margin-w=15&margin-h=15&row=2&column=4" height="165">
 
 </div>
