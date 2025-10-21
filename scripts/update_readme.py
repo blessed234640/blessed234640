@@ -37,7 +37,7 @@ def update_readme():
         return
     
     # Новый блок статистики
-    new_stats_block = f"""## 🚀 Динамическая статистика
+    new_stats_block = f"""### 🚀 Динамическая статистика
 
 <!-- LAST_UPDATED: {formatted_time} -->
 
@@ -47,20 +47,25 @@ def update_readme():
 - **Публичные репозитории:** {stats.get('public_repos', 0)}
 - **Подписчики:** {stats.get('followers', 0)}
 - **Подписки:** {stats.get('following', 0)}
+
 """
     
-    # Заменяем весь блок статистики
-    if "## 🚀 Динамическая статистика" in content:
-        pattern = r'## 🚀 Динамическая статистика.*?-\*\*Подписки:\*\*.*?\n'
-        content = re.sub(pattern, new_stats_block, content, flags=re.DOTALL)
-    else:
-        # Добавляем после Recent Activity
-        if "## 🎯 Recent Activity" in content:
-            content = content.replace(
-                "## 🎯 Recent Activity", 
-                f"## 🎯 Recent Activity\n\n{new_stats_block}"
-            )
+    print("🔍 Searching for statistics block...")
     
+    # Ищем блок статистики - исправленное регулярное выражение
+    pattern = r'### 🚀 Динамическая статистика.*?### 🛠️ Навыки'
+    
+    if re.search(pattern, content, re.DOTALL):
+        print("✅ Found statistics block, replacing...")
+        content = re.sub(pattern, new_stats_block + "### 🛠️ Навыки", content, flags=re.DOTALL)
+    else:
+        print("❌ Statistics block not found, checking structure...")
+        # Альтернативный поиск
+        if "### 🚀 Динамическая статистика" in content:
+            print("⚠️ Found title but couldn't replace entire block")
+            return
+    
+    # Записываем обновленный README
     with open('README.md', 'w', encoding='utf-8') as file:
         file.write(content)
     
