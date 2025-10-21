@@ -8,6 +8,22 @@
 - 💻 Backend-разработчик: Python, API, базы данных
 - 🚀 Увлекаюсь: Программированием, саморазвитием
 
+### 🎯 Recent Activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+### 🚀 Динамическая статистика
+
+<!-- LAST_UPDATED: 01.01.2024 00:00 MSK -->
+
+> 📊 Статистика обновляется автоматически
+
+- **Последнее обновление:** 01.01.2024 00:00 MSK
+- **Публичные репозитории:** 0
+- **Подписчики:** 0  
+- **Подписки:** 0
+
 ### 🛠️ Навыки
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
@@ -42,16 +58,3 @@
 <img src="https://github-profile-trophy.vercel.app/?username=blessed234640&theme=dracula&no-frame=true&margin-w=15&margin-h=15&row=2&column=4" height="165">
 
 </div>
-
-### 🚀 Динамическая статистика
-
-<!-- LAST_UPDATED: 01.01.2024 00:00 MSK -->
-
-> 📊 Статистика обновляется автоматически
-
-- **Последнее обновление:** 01.01.2024 00:00 MSK
-- **Публичные репозитории:** 0
-- **Подписчики:** 0  
-- **Подписки:** 0
-
-[![Update Stats](https://github.com/blessed234640/blessed234640/actions/workflows/update-stats.yml/badge.svg)](https://github.com/blessed234640/blessed234640/actions/workflows/update-stats.yml)

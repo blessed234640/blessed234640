@@ -1,15 +1,26 @@
 name: Update Recent Activity
-
 on:
   schedule:
-    - cron: '0 */6 * * *'  # Каждые 6 часов
+    - cron: '0 */6 * * *'
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-activity:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       - uses: jamesgeorge007/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and push
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git commit -m "🤖 Auto-update activity" || exit 0
+          git push
