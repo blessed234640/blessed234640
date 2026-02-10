@@ -1,4 +1,4 @@
-# Артур Азимов
+# 
 
 <img src="ff.png" alt="Артур Азимов" width="200" align="right" style="border-radius: 50%; border: 2px solid #fff;">
 
