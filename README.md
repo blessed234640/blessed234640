@@ -1,12 +1,11 @@
 # 
 
-<img src="ff.png" alt="Артур Азимов" width="200" align="right" style="border-radius: 50%; border: 2px solid #fff;">
+<img src="ff.png" alt="" width="200" align="right" style="border-radius: 50%; border: 2px solid #fff;">
 
 ### 👨‍💻 Обо мне
 - 🎯 20 лет, Екатеринбург
 - 🎓 Студент УГЛТУ (Прикладная информатика), выпуск 2026
 - 💻 Backend-разработчик: Python, API, базы данных
-- 🚀 Увлекаюсь: Программированием, саморазвитием
 
 ### 🎯 Recent Activity
 
