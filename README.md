@@ -34,13 +34,13 @@
 
 ### 📂 Проекты
 - [API](https://github.com/blessed234640/microservices_shop.git): MicroShop - Современная E-commerce платформа на микросервисах.
-- [Bookmarks](https://github.com/blessed234640/Bookmarks): Социальный сайт на Django с аутентификацией и шарингом.
-- [Blog](https://github.com/blessed234640/mysite.git): Современное приложение для введения блога.
-- [Telegram-бот](https://github.com/blessed234640/pythontgbot.git): Бот для погоды, валюты, музыки.
+- [Business App](https://github.com/blessed234640/bizapp): Микросервисная платформа для автоматизации бизнес-процессов.
+- [Educa](https://github.com/blessed234640/educate): Платформа электронного обучения, с чатом в реальном времени. Построена на Django и Channels, готова к продакшену с Docker, NGINX и SSL. (LMS), REST API
+- [Shop](https://github.com/blessed234640/snake-shop): Многофункциональная платформа электронной коммерции на Django
 
 ### 📫 Контакты
-- **Telegram:** [@dnkxeo](https://t.me/dnkxeo)
-- **Email:** arturazimov200577@gmail.com
+- **Telegram:** [@dnkxeo](https://t.me/blessed000000)
+- **Email:** 1234fauf6789@gmail.com
 - **GitHub:** [blessed234640](https://github.com/blessed234640)
 
 ### 📊 Статистика
