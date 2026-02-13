@@ -1,6 +1,5 @@
 # 
 
-<img src="ff.png" alt="" width="200" align="right" style="border-radius: 50%; border: 2px solid #fff;">
 
 ### 👨‍💻 Обо мне
 -  21 год, Екатеринбург
