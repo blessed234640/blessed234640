@@ -1,8 +1,7 @@
 # Artur Azimov
 
-**Backend / AI (LLM) Engineer · 3 года коммерческого опыта · FastAPI / async / PostgreSQL / LLM-интеграции**
+**Backend / AI (LLM) Engineer · 3+ года коммерческого опыта · FastAPI / async / PostgreSQL / LLM-интеграции**
 
-📍 Бишкек
 
 ---
 
