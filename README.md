@@ -1,47 +1,61 @@
-# 
+# Artur Azimov
 
+**Backend / AI (LLM) Engineer · 3 года коммерческого опыта · FastAPI / async / PostgreSQL / LLM-интеграции**
+
+📍 Бишкек
+
+---
 
 ### 👨‍💻 Обо мне
--  21 год, Екатеринбург
--  Студент УГЛТУ (Прикладная информатика), выпуск 2026
--  Backend-разработчик: Python, API, базы данных
+- Бэкенд на **Python**: высоконагруженные **async**-API, фоновые очереди задач, событийные интеграции
+- Проектирую сервисы: **FastAPI**, **asyncio**, **Celery**, брокеры сообщений (**Kafka / RabbitMQ**), **PostgreSQL** и **Redis**, **Docker**
+- **AI / LLM**: интеграции **GigaChat** и **OpenAI** — чат-ассистенты, RAG, генерация и обработка текста
+
+### 🛠️ Стек
+
+**Backend & Async**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![asyncio](https://img.shields.io/badge/asyncio-306998?style=for-the-badge&logo=python&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)
+
+**Messaging & Data**
+
+![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+
+**AI / LLM**
+
+![GigaChat](https://img.shields.io/badge/GigaChat-1E9E5A?style=for-the-badge&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+
+**Infra & Tools**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+**Также**
+
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![DRF](https://img.shields.io/badge/DRF-A30000?style=for-the-badge&logo=django&logoColor=white)
+
+### 📂 Избранные проекты
+- **[dispatch-delivery-service](https://github.com/blessed234640/dispatch-delivery-service)** — event-driven сервис доставки: Clean Architecture, CQRS, RabbitMQ + transactional outbox, Docker, интеграционные тесты. Показывает архитектурный подход и работу с очередями.
+- **[microservices_shop](https://github.com/blessed234640/microservices_shop)** — e-commerce на микросервисной архитектуре.
+- **[bizapp](https://github.com/blessed234640/bizapp)** — платформа автоматизации бизнес-процессов.
+
+### 📫 Контакты
+- **Telegram:** [@dnkxeo](https://t.me/dnkxeo)
+- **Email:** arturazimov.dev@gmail.com
+- **GitHub:** [blessed234640](https://github.com/blessed234640)
 
 ### 🎯 Recent Activity
 
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
-
-### 🚀 Динамическая статистика
-
-<!-- LAST_UPDATED: 30.06.2026 17:33 MSK -->
-
-> 📊 Статистика обновляется автоматически
-
-- **Последнее обновление:** 30.06.2026 17:33 MSK
-- **Публичные репозитории:** 15
-- **Подписчики:** 1
-- **Подписки:** 0
-
-### 🛠️ Навыки
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![DRF](https://img.shields.io/badge/DRF-A30000?style=for-the-badge&logo=django&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-### 📂 Проекты
-- [API](https://github.com/blessed234640/microservices_shop.git): MicroShop - Современная E-commerce платформа на микросервисах.
-- [Business App](https://github.com/blessed234640/bizapp): Микросервисная платформа для автоматизации бизнес-процессов.
-- [Educa](https://github.com/blessed234640/educate): Платформа электронного обучения, с чатом в реальном времени. Построена на Django и Channels, готова к продакшену с Docker, NGINX и SSL. (LMS), REST API
-- [Shop](https://github.com/blessed234640/snake-shop): Многофункциональная платформа электронной коммерции на Django
-
-### 📫 Контакты
-- **Telegram:** [@dnkxeo](https://t.me/blessed000000)
-- **Email:** 1234fauf6789@gmail.com
-- **GitHub:** [blessed234640](https://github.com/blessed234640)
 
 ### 📊 Статистика
 
