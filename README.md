@@ -7,15 +7,20 @@
 ---
 
 ### 👨‍💻 Обо мне
-- Бэкенд на **Python**: высоконагруженные **async**-API, фоновые очереди задач, событийные интеграции
+- Бэкенд на **Python**: высоконагруженные **async**-API, фоновые очереди задач, событийные интеграции; пишу также на **C# / .NET** и **1С**
 - Проектирую сервисы: **FastAPI**, **asyncio**, **Celery**, брокеры сообщений (**Kafka / RabbitMQ**), **PostgreSQL** и **Redis**, **Docker**
-- **AI / LLM**: интеграции **GigaChat** и **OpenAI** — чат-ассистенты, RAG, генерация и обработка текста
+- **AI / LLM**: интеграции с **GigaChat, OpenAI, Claude, Gemini, Grok**; писал **MCP-сервер** (Model Context Protocol) для подключения инструментов к LLM
 
 ### 🛠️ Стек
 
-**Backend & Async**
+**Языки**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge)
+![1C:Enterprise](https://img.shields.io/badge/1C%3AEnterprise-FFD200?style=for-the-badge&logoColor=black)
+
+**Backend & Async**
+
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![asyncio](https://img.shields.io/badge/asyncio-306998?style=for-the-badge&logo=python&logoColor=white)
 ![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)
@@ -31,6 +36,10 @@
 
 ![GigaChat](https://img.shields.io/badge/GigaChat-1E9E5A?style=for-the-badge&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge)
+![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+![Grok](https://img.shields.io/badge/Grok-000000?style=for-the-badge)
+![MCP](https://img.shields.io/badge/MCP-Model%20Context%20Protocol-1E1E1E?style=for-the-badge)
 
 **Infra & Tools**
 
@@ -39,13 +48,14 @@
 
 **Также**
 
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![DRF](https://img.shields.io/badge/DRF-A30000?style=for-the-badge&logo=django&logoColor=white)
 
 ### 📂 Избранные проекты
-- **[dispatch-delivery-service](https://github.com/blessed234640/dispatch-delivery-service)** — event-driven сервис доставки: Clean Architecture, CQRS, RabbitMQ + transactional outbox, Docker, интеграционные тесты. Показывает архитектурный подход и работу с очередями.
+- **[Веха (bizapp)](https://github.com/blessed234640/bizapp)** — платформа автоматизации бизнес-процессов: бэкенд на **FastAPI**, фронт на **Vue 3**, AI-ассистент на **GigaChat**.
+- **[dispatch-delivery-service](https://github.com/blessed234640/dispatch-delivery-service)** — event-driven сервис доставки на **C# / .NET**: Clean Architecture, CQRS, RabbitMQ + transactional outbox, Docker, интеграционные тесты.
 - **[microservices_shop](https://github.com/blessed234640/microservices_shop)** — e-commerce на микросервисной архитектуре.
-- **[bizapp](https://github.com/blessed234640/bizapp)** — платформа автоматизации бизнес-процессов.
 
 ### 📫 Контакты
 - **Telegram:** [@dnkxeo](https://t.me/dnkxeo)
