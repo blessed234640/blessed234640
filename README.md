@@ -9,7 +9,7 @@
 ### 👨‍💻 Обо мне
 - Бэкенд на **Python**: высоконагруженные **async**-API, фоновые очереди задач, событийные интеграции; пишу также на **C# / .NET** и **1С**
 - Проектирую сервисы: **FastAPI**, **asyncio**, **Celery**, брокеры сообщений (**Kafka / RabbitMQ**), **PostgreSQL** и **Redis**, **Docker**
-- **AI / LLM**: интеграции с **GigaChat, OpenAI, Claude, Gemini, Grok**; писал **MCP-сервер** (Model Context Protocol) для подключения инструментов к LLM
+- **AI / LLM**: интеграции с **GigaChat, OpenAI, Claude, Gemini, Grok**; написал **MCP-сервер** (Model Context Protocol) для подключения инструментов к AI-ассистентам
 
 ### 🛠️ Стек
 
@@ -53,9 +53,9 @@
 ![DRF](https://img.shields.io/badge/DRF-A30000?style=for-the-badge&logo=django&logoColor=white)
 
 ### 📂 Избранные проекты
-- **[Веха (bizapp)](https://github.com/blessed234640/bizapp)** — платформа автоматизации бизнес-процессов: бэкенд на **FastAPI**, фронт на **Vue 3**, AI-ассистент на **GigaChat**.
+- **[Веха (bizapp)](https://github.com/blessed234640/bizapp)** — AI-платформа управления задачами и проектами: **FastAPI** + **Vue 3**, фоновые задачи на **Celery**, AI-ассистент на **GigaChat** (генерация и оценка задач), PostgreSQL + Redis, Docker.
+- **[MCP-сервер «hh-ru»](https://github.com/blessed234640/MCP)** — Model Context Protocol сервер для поиска вакансий прямо из AI-ассистентов (Claude Desktop, Cursor): hh.ru, Работа России, SuperJob, зарубежная удалёнка. FastMCP + `curl_cffi`.
 - **[dispatch-delivery-service](https://github.com/blessed234640/dispatch-delivery-service)** — event-driven сервис доставки на **C# / .NET**: Clean Architecture, CQRS, RabbitMQ + transactional outbox, Docker, интеграционные тесты.
-- **[microservices_shop](https://github.com/blessed234640/microservices_shop)** — e-commerce на микросервисной архитектуре.
 
 ### 📫 Контакты
 - **Telegram:** [@dnkxeo](https://t.me/dnkxeo)
